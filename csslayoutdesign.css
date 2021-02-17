@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 25%;
+    background-color: white;
+}
+
+.navbar:hover {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+.menu {
+   
+
+    display: flex;
+    margin-left: 20%;
+    list-style: none;
+    width: 15%;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+
+    
+}
+
+.aboute {
+    color: #00b39b;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ababab;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 15px;
+    font-weight:600;
+}
+
+ ul li a:hover {
+     color: #00b39b;
+ }
+
+
+nav img {
+    width: 268px;
+    height: 33px;
+    
+}
+
+
+
+.class1 {
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px 25%;
+    margin-top: 120px;
+}
+
+
+
+
+
+/*------------------------ svg */
+
+.pub svg {
+    fill :#747474; 
+}
+
+.pub svg:hover {
+    fill: green;
+}
+
+
+
+
+.parag {
+    display: flex;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+
+.parag p {
+    width: 46%;
+    line-height: 1.75;
+    
+}
+
+.class1 img {
+    width: 40px;
+    padding-bottom: 30px;
+    align-self: center;
+}
+
+
+.class1 h1 {
+    align-self: center;
+    color: #00b39b;
+    font-family: Roboto,Arial,sans-serif;
+    margin: 1em 0;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight:20;
+    letter-spacing: 4px;
+    
+
+}
+
+
+/*----------------------------------------------------- 3 Boxes -------------------------------------*/
+
+.shopboxes {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+
+.box1 , .box2 , .box3 {
+    color: white;
+    border-radius: 10px ;
+    width: 27%;
+    padding: 25px;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+
+.box1:hover , .box2:hover , .box3:hover {
+ opacity: 0.9;
+}
+
+
+
+
+
+.box1 {
+    background-color:#00ccb1;
+    
+}
+
+.box2 {
+    background-color: #3d83df;
+}
+
+.box3 {
+    background: #1b2734;
+}
+
+
+.shopboxes h1 {
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 20px;
+
+}
+
+.shopboxes p {
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    font-weight:lighter;
+    
+}
+
+    /* ------ Select Options ---------*/
+
+    .country-select {
+        background-color: unset;
+        border: unset;
+        text-decoration: underline;
+        color: white;
+        font-size: 17px;
+        margin-top: 130px;
+        font-weight: bold;
+        
+        
+    }
+
+    .c-select {
+        background-color: unset;
+        border: unset;
+        text-decoration: underline;
+        color: white;
+        font-size: 17px;
+        margin-top: 40px;
+        font-weight: bold;
+    }
+
+
+
+    .country-select:hover {
+        color: rgb(82, 3, 3);
+    }
+
+    
+    .c-select:hover {
+        color: rgb(157, 201, 0);
+    }
+
+    /* ---------------- el publicté li feha el liste --------------------*/
+
+.pub  {
+    width: 50%;
+    margin: 30px 25%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+
+.pub ul {
+    padding-top: 17px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    list-style: none;
+    
+}
+
+.kbira {
+    height: 15px;
+}
+.sghira {
+
+    height: 20px;
+    margin-left: 30px;
+    
+    
+    }
+    
+
+
+
+
+
+.pub ul li {
+    padding-bottom: 30px;
+    
+
+}
+ svg {
+     height: 20px;
+ }
+
+
+    .pub h1 {
+        color: #00b39b;
+        margin-top: 10px;
+        width: 30%;
+        font-family: Work Sans,Arial,sans-serif;
+        font-weight: 300;
+        letter-spacing: -.3px;
+        font-size: 1.625em;
+    }
+
+
+
+
+
+    /* --------------------------etoile ma9sousa------------------ */
+        .etoile h1 {
+                color: #00b39b; 
+                font-family: Work Sans,Arial,sans-serif;
+                font-weight: 300;
+               
+               
+                
+                font-size: 2.125rem;;
+            }
+
+
+        .etoile p {
+
+            font-weight: 400;
+            line-height: 1.7142857143;
+            font-family: Roboto,Arial,sans-serif;
+            color: #747474;
+            
+            margin-top: 30px;
+        }
+
+
+
+
+
+
+
+
+   
+
+
+    .etoile {
+        background: #e5faf8;
+        background-image: linear-gradient(
+    -45deg
+    ,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+        padding: 1.875em 0 .625em;
+        overflow: hidden;
+        margin: 3.125rem auto 5.5rem;
+
+
+
+        display: flex;
+    
+    }
+    
+
+
+
+    .partie1 {
+        display: inline;
+        
+        margin-left: 25%;
+        width: 25%;
+        margin-top: 50px;
+    }
+
+
+    /* -------------- les 4 carreaux ---------------- */ 
+    .cars {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+
+
+    .num1, .num2, .num3, .num4 {
+       
+        padding: 20px;
+        background-color: white;
+        width: 170px;
+        height: 230px;
+        margin-top: 20px;
+        margin-left: 20px;
+        box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.02);
+        
+    } 
+
+    .cars h1 {
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .cars img {
+        margin-left: 40%;
+        width: 20%;
+    }
+
+
+
+    .cars p {
+        font-size: .8125em;
+        text-align: center;
+    }
+
+
+    .unetdeux {
+        display: inline;
+        margin-top: 20px;
+        
+    }
+    .troiset4 {
+        display: inline;
+    }
+    
+
+
+    /*---------------------ashel haja---------------------*/ 
+
+    .ashelhaja h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+}
+
+
+.ashelhaja p {
+    font-weight: 400;
+    line-height: 1.7142857143;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+
+
+/*---------------------------------------------- 7 Boxes --------------------------------------*/
+
+.allbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+
+.allbox div {
+    width: 30%;
+    
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.allbox div:hover {
+    box-shadow: 4px 5px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.allbox input {
+    background: #3d83df;
+    opacity: 0.8;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .625rem;
+    padding: 1em 1.5em;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.allbox input:hover {
+    opacity: 1;
+}
+
+
+.allbox img {
+    width: 100%;
+    border-radius: 5px;
+    border-bottom: none;
+    
+}
+
+
+.hetp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.hetp p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #747474;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+
+
+
+
+/* --------- Partie Seif -------- */ 
+
+
+.seif h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 2.1428571429em;
+    color: #747474;;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+
+.seif input {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-top: 50px;
+    border: none;
+    background-color: #3d83df;
+    color: white;
+    font-weight: 600;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    border-radius: 5px;
+    padding: 10px ;
+
+
+}
